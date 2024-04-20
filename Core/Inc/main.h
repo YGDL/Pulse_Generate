@@ -57,6 +57,8 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define KEY_Last_Pin GPIO_PIN_2
+#define KEY_Last_GPIO_Port GPIOE
 #define KEY_Next_Pin GPIO_PIN_4
 #define KEY_Next_GPIO_Port GPIOE
 #define KEY_Enter_Pin GPIO_PIN_6
@@ -65,12 +67,16 @@ void Error_Handler(void);
 #define OSC_IN_GPIO_Port GPIOH
 #define OSC_OUT_Pin GPIO_PIN_1
 #define OSC_OUT_GPIO_Port GPIOH
+#define LCD_MISO_Pin GPIO_PIN_2
+#define LCD_MISO_GPIO_Port GPIOC
 #define One_Pulse_Pin GPIO_PIN_0
 #define One_Pulse_GPIO_Port GPIOA
 #define LED_Pin GPIO_PIN_1
 #define LED_GPIO_Port GPIOA
 #define Pulse_N_Pin GPIO_PIN_7
 #define Pulse_N_GPIO_Port GPIOA
+#define LCD_BLK_Pin GPIO_PIN_0
+#define LCD_BLK_GPIO_Port GPIOB
 #define LCD_DC_Pin GPIO_PIN_1
 #define LCD_DC_GPIO_Port GPIOB
 #define Pulse_P_Pin GPIO_PIN_9
@@ -79,8 +85,6 @@ void Error_Handler(void);
 #define LCD_CS_GPIO_Port GPIOB
 #define LCD_SCL_Pin GPIO_PIN_13
 #define LCD_SCL_GPIO_Port GPIOB
-#define LCD_MISO_Pin GPIO_PIN_14
-#define LCD_MISO_GPIO_Port GPIOB
 #define LCD_MOSI_Pin GPIO_PIN_15
 #define LCD_MOSI_GPIO_Port GPIOB
 #define Pulse_Generate_Pin GPIO_PIN_12
