@@ -1,0 +1,16 @@
+{
+  "codename": "Times_New_Roman_16",
+  "ttf_path": "\\assets\\times.ttf",
+  "bin_path": "\\assets\\ui_font_Times_New_Roman_16.bin",
+  "c_path": "\\assets\\ui_font_Times_New_Roman_16.c",
+  "cfg_path": "\\assets\\ui_font_Times_New_Roman_16.fcfg",
+  "size": 16,
+  "bpp": 4,
+  "letters": 0,
+  "ranges": [
+    "0x20-0x7f"
+  ],
+  "symbols": "",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}

@@ -105,6 +105,12 @@ void Error_Handler(void);
 #define SD_CLK_GPIO_Port GPIOC
 #define SD_CMD_Pin GPIO_PIN_2
 #define SD_CMD_GPIO_Port GPIOD
+#define IO2_Pin GPIO_PIN_5
+#define IO2_GPIO_Port GPIOB
+#define IO3_Pin GPIO_PIN_7
+#define IO3_GPIO_Port GPIOB
+#define IO4_Pin GPIO_PIN_9
+#define IO4_GPIO_Port GPIOB
 #define EN1_Pin GPIO_PIN_0
 #define EN1_GPIO_Port GPIOE
 #define EN2_Pin GPIO_PIN_1

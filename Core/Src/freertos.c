@@ -290,7 +290,9 @@ void StartTask04(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+    // HAL_TIM_OnePulse_Start(&htim1, TIM_CHANNEL_1);
+    // HAL_TIMEx_OnePulseN_Start(&htim1, TIM_CHANNEL_1);K
+    osDelay(3000);
   }
   /* USER CODE END StartTask04 */
 }
